@@ -378,10 +378,53 @@ font-weight: 900;
   font-size: 3rem;
 }
 
+/* INTERNAS */
+
 .interna p{
   font-size: 2rem;
 }
 
 .interna h1{
   font-size: 4rem;
+}
+
+.flex-nosotros{
+  display: flex;
+  justify-content: center
+}
+.flex-nosotros img{
+  object-fit:cover;
+}
+
+@media screen and (max-width:1250px){
+  .flex-nosotros{
+    display: block;
+    /* margin: 0 auto; */
+  }
+  .flex-nosotros p{
+    margin: 0;
+    padding: 3rem
+  }
+}
+
+@media screen and (min-width:1100px){
+  .flex-nosotros img{
+     position: relative;
+     left: 15rem;
+  }
+  .flex-nosotros p{
+    text-align: center;
+  }
+}
+
+
+
+
+.flex-nosotros p{
+padding: 2rem;
+
+}
+
+.flex-nosotros img{
+  padding: 3rem;
 }
